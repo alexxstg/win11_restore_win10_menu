@@ -13,6 +13,12 @@ Then restart `explorer.exe` or reboot
 ```cmd
 taskkill /f /im explorer.exe && start explorer.exe
 ```
+
+Or use Powershell
+```cmd
+Stop-Process -Name explorer -Force
+Start-Process explorer.exe
+```
 ---
 
 ## Switching back to Windows 11 Context Menu
